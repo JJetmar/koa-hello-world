@@ -10,10 +10,11 @@
     "test": "standard && node test.js",
     "start": "node app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "koa": "^0.21.0"
+  },
   "devDependencies": {
     "assertit": "^0.1.0",
-    "koa": "^0.21.0",
     "supertest": "^1.0.1"
   },
   "keywords": [
