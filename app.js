@@ -1,4 +1,6 @@
 var app = require('koa')()
 var helloWorld = require('./index')
 
-app.use(helloWorld()).listen(80)
+const PORT = process.env.PORT || 80;
+
+app.use(helloWorld()).listen(PORT)
